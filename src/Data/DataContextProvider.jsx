@@ -11,6 +11,7 @@ import Actodoimg from "../Assests/ProjectImages/actodo.png";
 import ImageGallery from "../Assests/ProjectImages/images-gallery.png";
 import Htmlformvalidation from "../Assests/ProjectImages/htmlformvalidation.png";
 import Charactercounter from "../Assests/ProjectImages/charactercounter.png"
+import portfolio from "../Assests/ProjectImages/Portfolio.png"
 
 const DataContext = createContext();
 
@@ -150,6 +151,16 @@ function DataContextProvider({ children }) {
     projectlink: "https://saik2004.github.io/character-counter/",
     githublink: "https://github.com/saik2004/character-counter",
   },
+  {
+  title: "Portfolio Website",
+  description:
+    "A personal developer portfolio built with React and Tailwind CSS to showcase skills, projects, and contact information.",
+  toolsused: "React, Tailwind CSS",
+  category: "React",
+  img: portfolio,
+  projectlink: "https://portfolio-seven-alpha-20.vercel.app/",
+  githublink: "https://github.com/saik2004/Portfolio",
+}
 ]);
 
   return (
