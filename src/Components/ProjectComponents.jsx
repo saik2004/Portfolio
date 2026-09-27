@@ -55,7 +55,7 @@ function ProjectComponent() {
       </div>
 
       <div className="flex flex-col gap-3 justify-center">
-        {filteredProjects.map((items) => {
+        {[...filteredProjects].reverse().map((items) => {
           return (
             <div
               className={`border rounded-xl overflow-hidden transition-colors duration-300 ${
